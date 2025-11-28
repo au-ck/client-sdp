@@ -116,7 +116,7 @@ const AvailableFood = () => {
           {foods.map((food, index) => (
             <div key={food.id} style={styles.card}>
               <img
-                src={`http://192.168.1.73:30025${food.imagePath}`}
+                src={`http://localhost:30025${food.imagePath}`}
 
                 alt={food.foodType}
                 style={styles.cardImage}
